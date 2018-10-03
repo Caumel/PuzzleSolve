@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95dd50e1-c5e6-43cb-9f88-1576b1071a63" name="Default Changelist" comment="" />
+    <list default="true" id="95dd50e1-c5e6-43cb-9f88-1576b1071a63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,47 +15,58 @@
     <session id="897633061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="3" />
+          <entry key="java" value="2" />
+          <entry key="kt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="3" />
+          <entry key="JAVA" value="2" />
+          <entry key="Kotlin" value="6" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="47" />
+          <entry key="kt" value="541" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="47" />
+          <entry key="Kotlin" value="541" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/kotlin/autentia/services/SudokuServiceTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/kotlin/autentia/mappers/CourseMapperIT.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/kotlin/autentia/controllers/CourseControllerTest.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/model/Sudoku.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="135">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/Application.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -64,11 +77,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/model/Sudoku.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/Application.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/model/Sudoku.kt" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -77,8 +101,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="172" />
-    <option name="y" value="68" />
+    <option name="x" value="43" />
+    <option name="y" value="58" />
     <option name="width" value="1680" />
     <option name="height" value="947" />
   </component>
@@ -95,6 +119,9 @@
           </State>
           <State>
             <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
           </State>
           <State>
             <id>JUnitJava</id>
@@ -136,6 +163,11 @@
             <id>Threading issuesJava</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>ImplicitSubclassInspection</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -147,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,6 +218,13 @@
               <item name="autentia" type="b2602c69:ProjectViewProjectNode" />
               <item name="PuzzleSolve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autentia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PuzzleSolve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,20 +249,23 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="autentia" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538562849348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538567886118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -241,7 +284,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="com.kotlin.autentia.Application" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="autentia" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.autentia.Application" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="autentia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kotlin.autentia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kotlin.autentia.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutentiaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="autentia" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kotlin.autentia.AutentiaApplication" />
@@ -249,6 +318,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AutentiaApplication" />
+      <item itemvalue="Kotlin.com.kotlin.autentia.Application" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Kotlin.com.kotlin.autentia.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -260,44 +340,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538562503087</updated>
-      <workItem from="1538562506419" duration="332000" />
+      <workItem from="1538562506419" duration="375000" />
+      <workItem from="1538562939143" duration="4113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332000" />
+    <option name="totallyTimeSpent" value="4488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="172" y="68" width="1680" height="947" extended-state="0" />
+    <frame x="43" y="58" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +407,31 @@
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/kotlin/autentia/controllers/CourseControllerTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/model/Sudoku.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/pruebaKotlin/src/Pieza.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/Application.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/kotlin/autentia/model/Sudoku.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
